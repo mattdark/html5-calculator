@@ -1,0 +1,71 @@
+body {
+  background: #124e78;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#content {
+  width: 80%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#content section {
+  padding: 2px 2px 2px 0px;
+}
+
+#content button {
+  width: 50px;
+  height: 50px;
+  background: #30292f;
+  color: #fafaff;
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+}
+
+#content #clear {
+  width: 105px;
+  height: 50px;
+}
+
+#content #zero {
+  width: 105px;
+  height: 50px;
+}
+
+#content #point {
+  width: 105px;
+  height: 50px;
+}
+
+#content #equal {
+  width: 50px;
+  height: 50px;
+}
+
+#result {
+  width: 215px;
+  height: 70px;
+  background: #ffb20f;
+  font-size: 20px;
+  color: transparent;
+  font-weight: bold;
+  text-align: right;
+  padding: 0 10px;
+  border: none;
+  border-radius: 2px;
+  text-shadow: 0 0 0 white;
+  &:focus {
+    outline: none;
+  }
+}
